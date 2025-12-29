@@ -2,4 +2,5 @@ termux-setup-package-manager
 termux-setup-storage
 pkg update
 pkg upgrade
-pkg install wget curl aria2 proot proot-distro
+# Essentials + Languages
+pkg install wget curl aria2 proot proot-distro root-repo x11-repo git python hollywood
