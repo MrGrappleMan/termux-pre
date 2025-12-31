@@ -1,6 +1,9 @@
 termux-setup-package-manager
 termux-setup-storage
 pkg update
-pkg upgrade
+pkg upgrade -y
 # Essentials + Languages
-pkg install wget curl aria2 proot proot-distro root-repo x11-repo git python hollywood
+pkg install -y wget curl aria2 proot proot-distro root-repo x11-repo git python hollywood
+wget -O install-nethunter-termux https://offs.ec/2MceZWr
+chmod +x install-nethunter-termux
+./install-nethunter-termux
